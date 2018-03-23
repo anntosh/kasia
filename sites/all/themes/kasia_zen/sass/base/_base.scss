@@ -1,0 +1,35 @@
+/*
+  Document   : _base
+  Created on : Mar 27, 2014, 2:42:57 PM
+  Author     : Administrator
+  Description:
+  Kasia Zen base 
+*/
+
+/*
+  TODO customize this sample style
+  Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+
+root {
+  display: block;
+}
+#page {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+    margin: 1% auto 1%;
+ }
+
+html {font-size: $base-font-size/16px;}
+body {font-size: $base-font-size; font-family: $base-font-family; background-color: $site-background;}
+body > div {font-size: 1.0rem;}
+
+h1, h2 {color:$site-h1;}   // change 
+a{
+   color: $site-h2;
+   text-decoration: none;   
+    }
+ #content {margin-bottom:140px;
+           margin-bottom:14.0rem;
+           padding: 25px;
+ } 
