@@ -1,0 +1,35 @@
+/*
+  Document   : _sidebar1
+  Created on : Apr 26, 2014, 4:56:23 PM
+  Author     : Administrator
+  Description:
+  Purpose of the stylesheet follows.
+*/
+
+/*
+  TODO customize this sample style
+  Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+
+root {
+  display: block;
+}
+
+.sidebars {
+  background: $site-sidebar;
+  padding: 14px 14px 14px 14px;
+  padding: 1rem 1rem 1rem 1rem;  
+   .views-field-title { 
+      padding: 1rem 0 0.5rem 0; 
+      font-weight:bold; 
+      border-top: 1px dotted #494949;}
+   .views-field-field-testimonial-text p {
+      margin: 1rem 0; } 
+    
+}
+  
+ #search-block-form {
+   margin-top: 3rem;
+   border-top: 1px solid black;
+   padding: 1rem;   
+} 

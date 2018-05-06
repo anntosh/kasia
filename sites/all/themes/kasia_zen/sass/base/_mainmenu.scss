@@ -1,0 +1,48 @@
+/*
+  Document   : _mainmenu
+  Created on : Apr 3, 2014, 10:10:08 AM
+  Author     : Administrator
+  Description:
+  Main menu styling. Created by Tony.
+*/
+
+/*
+  TODO customize this sample style
+  Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+/*=================================SUPERFISH MENU (Main)============================ */ 
+/* Import our styles */
+@import "_init";
+#navigation{
+    background-color:$site-menu; 
+    height: 2.2rem;
+  }
+ 
+#block-superfish-1 {       
+    h2 {
+    	display:none;
+    }
+    #superfish-1 {
+        ul{padding-left:1.5rem;}
+      li:first-child {margin-left: 0.95%; }
+       a { 
+/*          font-size:12px;	<-- fix for IE below vers 9 - non CSS3 compatible
+          font-size:1.2rem;	<-- 12 px*/
+          font-style:italic;
+          font-weight:bold;
+          text-transform: uppercase; 
+          color:white;
+          display: inline-block;
+          padding: 11px 5px 6.5px 6px;
+          padding: 0.785rem  0.357rem 0.4642rem 0.428rem;
+          text-decoration: none;
+        }
+        a:link {color:#ffffff; background:$site-menu;}
+        a:visited {color:#ccc;}
+        a:focus {color:#ccc;} 
+       /*a:hover {color:#D9202B; background$site-red;/*border-left:1px solid #253F78; font-size:15px; font-size:1.5rem;}*/
+        a:hover {background:$site-menu-h; color:#222828; }
+        a:active {color:#CF8955;}
+    }
+ }
+  
